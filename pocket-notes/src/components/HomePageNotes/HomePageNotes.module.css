@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.container > img {
+  height: 40vh;
+  width: 40vw;
+}
+.container h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58.59px;
+  letter-spacing: 2%;
+}
+.desc {
+  width: 
+  650px;
+  color: #292929;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.encrypted {
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+}
