@@ -1,4 +1,4 @@
-.container {
+.groupcontainer {
     background-color: #fff;
     height: 100vh;
     width: 30vw;
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.container h1 {
+.groupcontainer h1 {
     color:rgba(0, 0, 0, 1);
     font-family: Roboto;
     font-size: 2rem;
@@ -22,7 +22,7 @@
     padding: 1rem;
 }
 
-.container > button {
+.groupcontainer > button {
     position: fixed;
     right: 72%;
     bottom: 3%;

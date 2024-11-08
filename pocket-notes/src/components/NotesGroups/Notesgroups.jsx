@@ -3,7 +3,7 @@ import styleNotesGroups from "./NotesGroups.module.css"
 const Notesgroups = () => {
   return (
     <div>
-      <div className={styleNotesGroups.container}>
+      <div className={styleNotesGroups.groupcontainer}>
       <h1>Pocket Notes</h1>
       <button>+</button>
       </div>

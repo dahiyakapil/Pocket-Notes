@@ -1,0 +1,94 @@
+.modalContainer {
+  background-color: rgba(204, 204, 204, 1);
+  width: 40vh;
+  min-height: 30vh;
+  max-width: 45vw;
+  z-index: 1;
+  position: fixed;
+  bottom: 30%;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 1rem;
+  margin: 1rem;
+}
+
+.items > h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 160.188%;
+  letter-spacing: 1.015px;
+}
+
+.text > label {
+  color: #000;
+  font-family: Roboto;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160.188%;
+  letter-spacing: 0.5px;
+}
+
+.text input {
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  background: #fff;
+  padding: 0.5rem;
+  margin-left: 1.2rem;
+}
+
+.modalColors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modalColors > h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160.188%;
+  letter-spacing: 0.5px;
+  margin-right: 2rem;
+}
+
+.createButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.createButton button {
+  border-radius: 11px;
+  background: #001f8b;
+  padding: 0.1rem 2rem;
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.188%;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  margin-right: 2rem;
+}
